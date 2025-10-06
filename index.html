@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorgesTec</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">Borges <span>Tec</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#fidelidade">Fidelidade</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="hero">
+        <h1>Produtos essenciais para o seu elêtronico</h1>
+        <p>Veja os produtos mais comprados atualmente</p>
+        <a href="#products" class="btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de produtos -->
+    <section class="products" id="products">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-grid" id="products-grid">
+            <!-- Os produtos serão inseridos via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="sobre" class="products">
+        <h2 class="section-title">Sobre nós</h2>
+        <p>A loja de eletrônicos começou pequena, com o sonho de oferecer tecnologia de qualidade a preços acessíveis.
+            No início, vendia apenas computadores e acessórios simples, conquistando os primeiros clientes pela confiança e bom atendimento.
+            Com o tempo, o negócio cresceu e passou a oferecer notebooks, periféricos, celulares e uma grande variedade de produtos.
+            A equipe se especializou para atender melhor e acompanhar as inovações do mercado.
+            Campanhas de marketing e promoções ajudaram a atrair novos consumidores e fortalecer a marca.
+            Logo, a loja se tornou referência em tecnologia na região, reconhecida pela qualidade e suporte técnico.
+            Mesmo com o avanço das vendas online, manteve seu compromisso com o cliente em primeiro lugar.
+            Assim, sua história mostra que dedicação e inovação são as chaves para o sucesso duradouro.</p>
+    </section>
+    <section id="fidelidade" class="products">
+        <h2 class="section-title">Fidelidade</h2>
+        <p>Nosso programa de fidelidade foi criado para valorizar quem escolhe nossa loja para suas compras de informática.
+            A cada compra, você acumula pontos que podem ser trocados por descontos, acessórios ou serviços exclusivos.
+            Clientes fiéis também recebem cupons especiais e acesso antecipado a lançamentos e promoções.
+            Aqui, a fidelidade não é apenas sobre comprar, mas sobre confiar em quem entende de tecnologia.
+            Queremos estar ao seu lado em cada upgrade, seja um novo notebook, um periférico gamer ou um PC completo.
+            Com benefícios reais e atendimento de qualidade, ser cliente fiel é garantia de economia, prioridade e reconhecimento.
+            Fidelidade que recompensa quem faz parte do nosso mundo digital!
+            </p>
+    </section>
+    <section id="contato" class="products">
+        <h2 class="section-title">Contato</h2>
+        <p>Endereço: Rio do Sul, Santa Catarina, Rua Willy Odorizzi Nº110, Valada São Paulo, CEP: 89162166                                                     
+            Telefone: +55 (47) 98923-7697
+            Horário de funcionamento: 
+            07:30 - 22:00
+            </p>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MinimalStore. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="js/scripts.js"></script> 
+
+</body>
+</html>
